@@ -23,7 +23,7 @@ server.listen(8080, () => {
   console.log('Server running on http://localhost:8080/');
 });
 
-const MONGO_URL = 'mongodb+srv://alonso_csr:s4Aensg1KuOvyHOw@cluster0.thra62i.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URL = 'mongodb+srv://cesaralonso:cesaralonso@cluster0.nvi0fy7.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
